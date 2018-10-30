@@ -1,0 +1,302 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+.container{max-width: 1400px}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+p{
+    margin-bottom: 20px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 600;
+    color: #777777;
+}
+body {
+    color: #777777;
+    font-family: 'Roboto', sans-serif;
+}
+
+a:hover { text-decoration: none }
+
+
+.header-content > a {
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+}
+header.header-area {
+    background: none repeat scroll 0 0 #2D2D2D;
+}
+.header-content span{color: #fff}
+.main-menu ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.main-menu li {
+    display: inline-block;
+}
+.main-menu a {
+    color: #685C5A;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 40px 15px;
+    text-transform: capitalize;
+    transition: all 0.3s ease 0s;
+}
+.main-menu a:hover {
+    border-bottom: 5px solid #043764;
+}
+.logo img {
+    display: inline-block;
+    padding: 30px 0;
+}
+.header {
+    border-bottom: 2px solid #E5E5E5;
+}
+.main-menu {
+    margin-top: 20px;
+}
+
+.hero-bg{background-image: url(../img/hero-bg.jpg);}
+
+.section-block.hero-area {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 100px 0;
+    position: relative;
+}
+.hero-bg {
+    background-color: #DDDDDD;
+    background-position: center center;
+    background-size: cover;
+    height: 90%;
+    left: 0;
+    position: absolute;
+    top: 5%;
+    width: 45%;
+}
+.hero-text h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+h3.section-heading {
+    font-size: 25px;
+}
+
+.section-block.background {
+    background: none repeat scroll 0 0 #E8E8E8;
+    min-height: 580px;
+    padding: 80px 0;
+}
+
+
+p {
+    line-height: 1.2;
+}
+
+
+
+.section-block.shedule-call {
+    background: none repeat scroll 0 0 #043764;
+    height: 160px;
+    padding: 65px 0;
+}
+
+.shedule-content h3 {
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 0 20px;
+}
+a.call-button {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #043764;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 40px;
+    position: relative;
+    border-bottom: 3px solid #9E9E9E;
+}
+
+.shedule-content img {
+    left: 59%;
+    position: absolute;
+    top: 7px;
+    z-index: 2;
+}
+
+.section-health {
+    background: none repeat scroll 0 0 #E8E8E8;
+    height: 530px;
+    margin: 10px 0;
+    padding: 25px 0;
+    position: relative;
+    z-index: -1;
+}
+.section-health:after {
+    background-image: url(../img/health-bg-1.jpg);
+    background-color: #333333;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 45%;
+    z-index: 1;
+    position: absolute;
+    content: "";
+    border-right: 10px solid #fff;
+}
+.section-health-2 {
+    background: none repeat scroll 0 0 #E8E8E8;
+    height: 530px;
+    margin: 10px 0;
+    padding: 25px 0;
+    position: relative;
+    z-index: -1;
+}
+.section-health-2:after {
+    background-image: url(../img/health-bg-2.jpg);
+    background-color: #333333;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    right: 0;
+    top: 0;
+    width: 45%;
+    z-index: 1;
+    position: absolute;
+    content: "";
+    border-left: 10px solid #fff;
+}
+
+
+.section-block {
+    padding: 70px 0;
+}
+.single-staff-item {
+    border: 1px solid;
+    height: 290px;
+    margin-bottom: 30px;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}
+.staff-photo {
+    background-color: #DDDDDD;
+    height: 235px;
+    left: 45px;
+    position: absolute;
+    top: 25px;
+    width: 215px;
+}
+.staff-meta {
+    padding-left: 260px;
+}
+.staff-meta h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+.staff-meta h5 {
+    font-size: 20px;
+    font-weight: normal;
+}
+.staff-photo-1{background-image: url(../img/staff-photo-1.jpg);}
+.staff-photo-2{background-image: url(../img/staff-photo-2.jpg);}
+.staff-photo-3{background-image: url(../img/staff-photo-3.jpg);}
+.staff-photo-4{background-image: url(../img/staff-photo-4.jpg);}
+.staff-photo-5{background-image: url(../img/staff-photo-5.jpg);}
+.staff-photo-6{background-image: url(../img/staff-photo-6.jpg);}
+.staff-photo-7{background-image: url(../img/staff-photo-7.jpg);}
+.staff-photo-8{background-image: url(../img/staff-photo-8.jpg);}
+
+.staff-photo:before {
+    background: none repeat scroll 0 0 #DFAC54;
+    content: "";
+    height: 100%;
+    left: -30px;
+    position: absolute;
+    top: 0;
+    width: 20px;
+}
+
+
+
+.section-block.footter {
+    background: none repeat scroll 0 0 #043764;
+}
+.form-title > h2 {
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.request-form input, textarea {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: medium none;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 100%;
+}
+a.submit-btn {
+    background: none repeat scroll 0 0 #363636;
+    color: #FFFFFF;
+    display: inline-block;
+    font-weight: normal;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.section-block.footer.footer-bottom {
+    background: none repeat scroll 0 0 #043764;
+    color: #FFFFFF;
+}
+.footer-left h6 {
+    color: #FFFFFF;
+    font-weight: normal;
+    margin: 0;
+    text-transform: uppercase;
+}
+.footer-left h1 {
+    color: #FFFFFF;
+    margin: 0;
+}
+.footer-left > span {
+    color: #FFFFFF;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+}
+.footer-left a {
+    color: #FFFFFF;
+    display: inline-block;
+}
+.footer-logo > img {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
